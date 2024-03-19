@@ -1,0 +1,7 @@
+#files
+
+#folders
+
+dist/
+.parcel-cache/
+node_modules/
