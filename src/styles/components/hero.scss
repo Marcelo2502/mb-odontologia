@@ -1,16 +1,55 @@
-.hero{
-    margin-top: vw(150);
+.hero {
+    background-image: linear-gradient(to bottom, $color-terciary, $color-quaternary);
+    width: 100vw;
 
-    &__container{
+    &__container {
+        height: 100vh;
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-        &-containt{
-            display: flex;
-            align-items: center;
+    &__content{
+        max-width: vw(840);
+    }
+
+    &__img {
+        width: vw(550);
+        align-self: flex-end;
+        display: block;
+    }
+
+    &__title {
+        font-size: $font-size-giga;
+        color: $color-primary;
+        font-family: $font-title;
+        font-weight: $font-weight-medium;
+
+        span{
+            color: $color-title;
+            font-weight: $font-weight-bold;
+        }
+    }
+
+    &__booking{
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
+
+    &__text{
+        margin: vw(100) 0;
+        line-height: vw(36);
+        font-size: $font-size-s;
         }
 
-        &-booking{
-            display: block;
-        }
+    &__button{
+        margin-right: vw(80);
+    }
+
+    &__link{
+        text-decoration: none;
+        color: $color-text;
+        font-size: $font-size-s;
     }
 }

@@ -9,6 +9,6 @@
 }
 
 .container{
-    background-image: linear-gradient(to bottom, $color-terciary, $color-quaternary);
-    border: solid 1px red;
+    max-width: vw(1480);
+    margin: 0 auto;
 }

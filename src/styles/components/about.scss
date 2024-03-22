@@ -1,4 +1,45 @@
 .about{
-    border: solid 1px red;
-    display: flex;
-}
+
+    padding-top: $spacing-xxl;
+
+    &__content{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: $spacing-xxl;
+        
+    }
+
+    &__title{
+        font-size: $font-size-xxl;
+        font-family: $font-title;
+        font-weight: $font-weight-bold;
+        max-width: vw(390);
+    }
+
+    &__text{
+        line-height: vw(36);
+        margin-bottom: $spacing-xxl;
+    }
+
+    &__info{
+        max-width: 48%;
+    }
+
+    &__gallery{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        img{
+            max-width: 48%;
+            display: block
+        }
+    }
+
+    &__img{
+        margin-top: vw(80);
+
+    }
+
+}  

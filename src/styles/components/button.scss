@@ -1,6 +1,6 @@
 .button{
     background: $color-primary;
-    border-radius: 8px;
+    border-radius: vw(8);
     color: $color-secondary;
     padding: vw(10) vw(30);
     text-decoration: none;
@@ -8,11 +8,11 @@
     letter-spacing: 0.225em;
     cursor: pointer;
     transition: all 0.5s ease;
+    border: solid 1px $color-primary;
+    font-family: $font-title;
 
     &:hover{
         color: $color-primary;
-        background: transparent;
-        border: solid 2px $color-primary;
-        
+        background: transparent;     
     }
 }

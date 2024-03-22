@@ -40,7 +40,20 @@
         }
     }
 
+    
+    &__social{
+        display: flex;
+        align-items: center;
+    }
+
     &__social-link{
-        margin-right: $spacing-m;
+        margin-left: $spacing-m;
+        text-decoration: none;
+        display: block;
+        width: vw(24);
+        
+        img{
+            max-width: 100%;
+        }
     }
 }
