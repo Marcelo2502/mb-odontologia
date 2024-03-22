@@ -1,4 +1,4 @@
-.header{
+.header {
     width: 100%;
     position: fixed;
     top: 0;
@@ -6,7 +6,7 @@
     z-index: 100;
     padding: $spacing-xxl 0 0;
 
-    &__container{
+    &__container {
         max-width: vw(1600);
         margin: 0 auto;
         display: flex;
@@ -14,29 +14,33 @@
         justify-content: space-between;
     }
 
-    &__logo{
-        img{
+    &__logo {
+        img {
             display: block;
             margin: 0;
             width: vw(236);
         }
     }
 
-    &__nav{
+    &__nav {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: 0 vw(40);
 
-        &-link{
+        &-link {
             margin: 0 vw(40);
             text-decoration: none;
             color: $color-text;
-        
-        &:hover{
-            color: $color-primary;
-            font-weight: bold;
+
+            &:hover {
+                color: $color-primary;
+                font-weight: bold;
+            }
         }
-        }
+    }
+
+    &__social-link{
+        margin-right: $spacing-m;
     }
 }

@@ -7,3 +7,8 @@
     font-size: vw(16);
     font-weight: $font-weight-medium;
 }
+
+.container{
+    background-image: linear-gradient(to bottom, $color-terciary, $color-quaternary);
+    border: solid 1px red;
+}

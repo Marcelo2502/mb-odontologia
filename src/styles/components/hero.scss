@@ -1,0 +1,16 @@
+.hero{
+    margin-top: vw(150);
+
+    &__container{
+        display: flex;
+
+        &-containt{
+            display: flex;
+            align-items: center;
+        }
+
+        &-booking{
+            display: block;
+        }
+    }
+}
