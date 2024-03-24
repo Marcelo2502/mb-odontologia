@@ -1,0 +1,36 @@
+.booking{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: $spacing-xxl;
+
+
+    &__grid{
+        background: $color-primary;
+        width: 400px;
+        height: 250px;
+    }
+
+    &__button{
+        background: $color-secondary;
+        color: $color-primary;
+
+        &:hover{
+            background: $color-primary;
+            color: $color-secondary;
+                
+        }
+    }
+
+
+    &__title{
+        text-align: center;
+        color: $color-white;
+        font-family: $font-title;
+        font-size: $font-size-xxl;
+        font-weight: $font-weight-bold;
+    }
+
+
+}

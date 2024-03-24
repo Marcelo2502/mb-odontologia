@@ -1,0 +1,59 @@
+.service{
+
+    grid-template-columns: vw(840);
+    background-image: linear-gradient(to top, $color-terciary, $color-white);
+    width: 100vw;
+
+    padding-top: $spacing-xxl;
+
+    &__container{
+        display: flex;
+    }
+
+    &__content{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: $spacing-xxl;
+        display: block;
+        max-width: vw(750);
+    }
+
+    &__description{
+        max-width: 48%;
+        display: flex;
+        align-items: center;
+        display: block;
+    }
+
+    &__data{
+        display: flex;
+        padding-left: $spacing-l;
+    }
+
+    &__title{
+        font-size: $font-size-xxl;
+        font-family: $font-title;
+        font-weight: $font-weight-bold;
+        margin-bottom: $spacing-xxl;
+    }
+
+    &__sub-title{
+        font-size: $font-size-xl;
+        font-family: $font-title;
+        font-weight: $font-weight-bold;
+        padding: $spacing-m 0;
+    }
+
+    &__text{
+        line-height: vw(36);
+        padding-bottom: $spacing-xxl;
+    }
+
+    &__img{
+        padding-right: $spacing-m;
+    }
+
+
+
+}
