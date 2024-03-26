@@ -1,8 +1,8 @@
 .service{
-
     grid-template-columns: vw(840);
     background-image: linear-gradient(to top, $color-terciary, $color-white);
     width: 100vw;
+    padding-bottom: 1px;
 
     padding-top: $spacing-xxl;
 
@@ -28,6 +28,8 @@
 
     &__data{
         display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
         padding-left: $spacing-l;
     }
 
@@ -51,10 +53,11 @@
     }
 
     &__img{
-        padding-right: $spacing-m;
+        width: vw(130);
+        height: vw(130);
+        margin-right: $spacing-m;
         border-radius: 50%;
+        overflow: hidden;
+        flex-shrink: 0;
     }
-
-
-
 }

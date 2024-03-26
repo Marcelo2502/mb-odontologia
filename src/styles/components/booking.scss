@@ -1,20 +1,20 @@
 .booking{
-    
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: $spacing-xxl;
-    padding-bottom: $spacing-xxl;
+    align-items: stretch;
+    justify-content: space-between;
+    border-radius: vw(8);
+    overflow: hidden;
+    background: $color-primary;
+
+    margin: $spacing-xxl auto;
 
     &__grid{
         display: flex;
         flex-direction: column;
-        align-items:center;
-        padding-top: $spacing-xxl;
-        background: $color-primary;
-        width: vw(500);
-        height: vw(310);
+        align-items:flex-start;
+        justify-content: flex-start;
 
+        padding: vw(100) 0 0 vw(100);
     }
 
     &__button{
@@ -30,7 +30,7 @@
     }
 
     &__title{
-        text-align: center;
+        max-width: vw(500);
         color: $color-white;
         font-family: $font-title;
         font-size: $font-size-xxl;
@@ -38,8 +38,6 @@
     }
 
     &__image{
-        width: vw(500);
-        height: vw(320);
-
+        display: block;
     }
 }
