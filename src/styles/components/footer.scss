@@ -1,0 +1,73 @@
+.footer{
+    width: 100%;
+    padding: $spacing-xxl 0;
+    background-color: $color-terciary;
+
+    &__container {
+        max-width: vw(1600);
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        img {
+            display: block;
+            margin: 0;
+            width: vw(236);
+        }
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+
+        &-link {
+            margin: 0 vw(40);
+            text-decoration: none;
+            color: $color-text;
+
+            &:hover {
+                color: $color-primary;
+                font-weight: bold;
+            }
+        }
+    }
+
+    &__social{
+        p{
+            padding: $spacing-xxl 0;
+            font-size: $font-size-l;
+            width: vw(250);
+            line-height:  $spacing-l;
+        }
+    }
+
+    &__social-link{
+        margin-left: $spacing-m;
+        text-decoration: none;
+        width: vw(24);
+        
+        img{
+            max-width: 100%;
+            padding: $spacing-xl 0;
+        }
+    }
+
+    &__button{
+        button{
+            color: $color-secondary;
+        }
+    }
+
+    &__test{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        button{
+            margin-top: $spacing-xxl;
+        }
+    }
+}
